@@ -1,0 +1,17 @@
+.fundo-imagem{
+  background-image: url(img/fundo.png);
+    background-attachment:fixed ;
+}
+li{
+  font: bold red  3em ;
+  display: inline;
+  font-family:'Lucida Sans','Lucida Sans Unicode', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+.texto{
+  font-family:'Lucida Sans','Lucida Sans Unicode', sans-serif;
+  font-weight: 300;
+
+
+}
