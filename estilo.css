@@ -1,17 +1,15 @@
-.fundo-imagem{
-  background-image: url(img/fundo.png);
-    background-attachment:scroll
+body{
+  background:#d2d2c1 url(img/fundo.png);
+  font: 16px 'Arial' ,'Helvetica' , sans-serif; 
 }
 .barraDeNavegacao{
-  font: bold red  3em ;
-  /* display: inline; */
-  font-family:'Lucida Sans','Lucida Sans Unicode', sans-serif;
-  font-weight: bold;
-  font-size: 2em;
+  font: 1em 'Arial' ,'Helvetica' , sans-serif ;
+  padding: 13px;
   background-color: #EBEBD8;
+  border: solid red 1px;
 }
 .texto{
-  font-family:'Lucida Sans','Lucida Sans Unicode', sans-serif;
+  font-family: 'Arial' ,'Helvetica' , sans-serif ;
   font-weight: 300;
   background-color: #DBDBCA;
 
@@ -22,3 +20,12 @@
   height: 400px;
 }
 
+.principal{
+  border: 1px red solid;
+  width: 900px;
+}
+.fotosBiblio{
+  width: 600px;
+  height: 380px;
+  border: solid red 1px; 
+}
