@@ -1,20 +1,33 @@
 body{
   background:#d2d2c1 url(img/fundo.png);
   font: 16px 'Arial' ,'Helvetica' , sans-serif; 
+  width: 900px;
+}
+
+.principal{
+  width: 900px;
 }
 .barraDeNavegacao{
   font: 1em 'Arial' ,'Helvetica' , sans-serif ;
-  padding: 13px;
+  padding: 15px;
   background-color: #EBEBD8;
   border: solid red 1px;
 }
+a {
+  color: #0f0f01;
+  text-decoration: none;
+  font-weight: bold;
+  border: solid red 1px ;
+  padding: 5px;
+}
+
 .texto{
   font-family: 'Arial' ,'Helvetica' , sans-serif ;
   font-weight: 300;
   background-color: #DBDBCA;
-
-
+  padding: 10px;
 }
+
 .fotoHome{
   width: 300px;
   height: 400px;
@@ -24,8 +37,12 @@ body{
   border: 1px red solid;
   width: 900px;
 }
+
 .fotosBiblio{
   width: 600px;
   height: 380px;
   border: solid red 1px; 
+}
+.centralizar{
+  text-align: center;
 }
