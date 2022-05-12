@@ -1,23 +1,24 @@
 body{
   background:#d2d2c1 url(img/fundo.png);
-  font: 16px 'Arial' ,'Helvetica' , sans-serif; 
+  font: 15px 'Arial' ,'Helvetica' , sans-serif; 
   width: 900px;
 }
-
+#rodape{
+  text-align: center;
+}
 .principal{
   width: 900px;
+  background-color: #DBDBCA;
 }
 .barraDeNavegacao{
   font: 1em 'Arial' ,'Helvetica' , sans-serif ;
   padding: 15px;
   background-color: #EBEBD8;
-  border: solid red 1px;
 }
 a {
   color: #0f0f01;
   text-decoration: none;
   font-weight: bold;
-  border: solid red 1px ;
   padding: 5px;
 }
 
@@ -34,15 +35,19 @@ a {
 }
 
 .principal{
-  border: 1px red solid;
   width: 900px;
 }
 
 .fotosBiblio{
-  width: 600px;
-  height: 380px;
-  border: solid red 1px; 
+  border: #737366 solid 16px;
 }
-.centralizar{
-  text-align: center;
+
+.h1 {
+  color: #828271;
+  font-size: 1.2em;
+}
+.contato{
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
 }
